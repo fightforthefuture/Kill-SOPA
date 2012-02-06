@@ -148,7 +148,7 @@
 		
 		.wrap p {font-size: 20px; color: #fff; line-height: 1.5; padding-left: 20px; padding-right: 20px; margin-bottom: 10px;}
 		
-		#strike-wrapper h1 {font-size: 40px; height:auto; margin-top: 20px; margin-bottom: 20px;}
+		.map h1, #strike-wrapper h1 {font-size: 40px; height:auto; margin-top: 20px; margin-bottom: 20px;}
 		h1 em {font-style: italic; font-weight: bold;}
 		
 		#strike-wrapper h2 {margin-bottom: 20px;}
@@ -159,6 +159,7 @@
 			overflow: auto;
 			background: url(section_background.png);
 		}
+		.embedz {background: none;}
 		.wrap {margin: 0 auto; width: 800px; text-align: center;}
 		
 		
@@ -241,7 +242,8 @@
 		margin: 10px 20px 10px 0;"
 		}
 		
-		.copywrong {width: 600px; margin: 0 auto; text-align: center; line-height: 1.5; margin-top: 10px; margin-bottom: 10px;}
+		.copywrong {margin: 0 auto; text-align: center; line-height: 1.5; margin-top: 10px; margin-bottom: 10px;}
+		#sign .copywrong {font-size: 12px; width: 800px; padding-top: 10px; clear: both;}
 		
 		.embedz label {float: left; width: 200px; font-size: 20px; padding-top: 15px; text-align: right;}
 		.embedz input {float: right;  width: 570px; }
@@ -250,12 +252,6 @@
 	</head>
 	<body>
 		<div id="fight_header" style="background: #252525 url('http://americancensorship.org/images/fftf-header.png') center; height: 50px; cursor: pointer;" onclick="location.href = 'http://fightforthefuture.org/';"></div>
-		 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin: 0 auto; width: 100px; padding-left: 400px; position: absoulte; margin-top: -40px;">
-	        <input type="hidden" name="cmd" value="_s-xclick">
-	        <input type="hidden" name="hosted_button_id" value="2JSZTBQH9QBYY">
-	        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 96px; height: auto; border: 0;">
-	        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-	        </form>
 		
 	<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -277,7 +273,6 @@
 			<h1>Stop ACTA & TPP! - Never use trade agreements to mess with the Internet!</h1>
 			<h2>The [massive opposition] to the [SOPA & PIPA] censorship bills showed that the public *demands* an open debate around tech policy.  But what [MPAA lobbyists] fail to pass in laws like [SOPA], they try to sneak through in [secretive trade agreements] negotiated [behind closed doors].</h2>
 			
-			<h2>ACTA itself will signing countries to criminalize internet users, require ISPs to spy on users, and make it easier for the world's best websites to get sued out of existence.  ACTA itself will become another forum for the copyright lobby to push through new laws without our consent.  
 
 			</h2>
 
@@ -285,7 +280,7 @@
 
 			</div>
 			</div>
-			<div class="section">
+			<div class="section" id="sign">
 				<div class="wrap">
 				<p style="descrip"><strong>Stop ACTA & TPP</strong>: Tell your country's officials: NEVER use secretive trade agreements to meddle with the Internet.  Our freedoms depend on it!</p>
 			<form action="http://act.fightforthefuture.org/page/s/acta-letters" method="post" id="write-letter">
@@ -302,6 +297,8 @@ Over coming days you'll be hearing from the many businesses, advocacy organizati
 			
 				
 			</form>
+			
+						<p class="copywrong">Fight For The Future may contact you about future campaigns. We will never share your email with anyone. <a href="http://fightforthefuture.org/privacy">Privacy Policy</a></p>
 		</div>
 		</div>
 		<div class="section embedz">
@@ -325,12 +322,21 @@ Over coming days you'll be hearing from the many businesses, advocacy organizati
 
 				</form>"/></fieldset>
 				
+				<fieldset>
+					<label>Embed Map</label>
+					<input value="<iframe width='800' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://maps.google.com/maps/ms?msid=212120558776447282985.0004b7b33e16f13c710c7&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=16.350082,-86.79903&amp;spn=87.63752,240.331077&amp;output=embed'></iframe>" />
+				
 			</div>
 		</div>
+		
+<div class="section map">
 		<div class="wrap">
+			<h1><a href="http://maps.google.com/maps/ms?msid=212120558776447282985.0004b7b33e16f13c710c7&msa=0">ACTA Protests worldwide</a></h1>
+			<iframe width="800" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msid=212120558776447282985.0004b7b33e16f13c710c7&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=16.350082,-86.79903&amp;spn=87.63752,240.331077&amp;output=embed"></iframe>
 		</div>
-			<p class="copywrong">Fight For The Future may contact you about future campaigns. We will never share your email with anyone. <a href="http://fightforthefuture.org/privacy">Privacy Policy</a></p>
-			
+	</div>
+
+			<p class="copywrong"><a href="http://fightforthefuture.org">Fight for the Future</a>. All rights reserved. Including your right to remix this however you want!</p>
 		</div>
 		<script>
 		// Setup tracking for form submisison on #censor
