@@ -1,0 +1,259 @@
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+/* Our Code */
+
+body, html {
+	font-family: Helvetica, Arial, sans-serif;
+	/*background: #1B1B1B url(http://sopastrike.com/strike/strike-bg.png) top left repeat;*/
+	color: #fff;
+}
+
+/*match placeholder/watermark padding to border+padding for input element*/
+label.placeholder {
+cursor: text;
+padding: 12px 5px 5px 5px;
+color: #999999;
+float: left;
+display: block;
+font-size: 24px;
+}
+
+a {
+	color: #3ea3d8;
+}
+
+a:visited {
+	color: #3ea3d8;
+}
+
+#strike-wrapper h1 {
+	font-size: 30px;
+	text-shadow: #000000 2px 2px;
+	text-align: center;
+	width: 800px;
+	margin: 0 auto 15px auto;
+	line-height: 40px;
+	padding: 0 0 0 0;
+}
+
+#strike-wrapper > h1 {
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+
+#strike-wrapper > h2 {
+	font-weight: normal;
+		text-align: center;
+	width: 800px;
+	font-size: 18px;
+}
+
+#strike-wrapper .learn-more a {
+	color: #3ea3d8;
+}
+
+#strike-wrapper.embed h1 {
+	width: 500px;
+	padding-top: 15px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#strike-wrapper p {
+	font-size: 13px;
+	text-align: center;
+	margin-top: 40px;
+	line-height: 16px;
+	color: #aaa;
+}
+
+#strike-wrapper a {
+	color: #fff;
+}
+
+.btn.close {
+	text-decoration: none;
+}
+
+#strike-wrapper {
+	width: 800px;
+	margin: 0 auto 0 auto;
+}
+
+#strike-wrapper.embed {
+	width: 500px;
+}
+
+#strike-wrapper > div {
+
+}
+
+#strike-wrapper > div > img#paper {
+	width: 800px;
+	margin: 15px auto 0 auto;
+	display: block;
+}
+
+#strike-wrapper > div > form {
+	width: 800px;
+	clear: both;
+	margin: 0 auto 0 auto;
+}
+
+#strike-wrapper.embed > div > form {
+	width: 500px;
+}
+
+#strike-wrapper > form > #info {
+
+}
+
+#strike-wrapper > form > #letter {
+	
+}
+
+#strike-wrapper input {
+	width: 190px;
+	padding: 5px;
+	border: 1px solid #000;
+	font-size: 24px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	height: 40px;
+	box-shadow: #000 2px 2px;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+#strike-wrapper.embed input {
+	width: 230px;
+	margin-right: 8px;
+}
+
+#strike-wrapper textarea {
+	padding: 35px 5px 5px 25px;
+	border: none;
+	font-size: 17px;
+	width: 775px;
+	height: 211px;
+	margin: 0 0 0 0;
+	background: transparent url(http://sopastrike.com/strike/quote.png) top left no-repeat;
+	color: #aaa;
+}
+
+#strike-wrapper.embed textarea {
+	width: 500px;
+	padding: 35px 5px 5px 5px;
+	margin-top: 15px;
+	height: 240px;
+}
+
+#strike-wrapper input#zip {
+	width: 100px;
+}
+
+#strike-wrapper input#addr1 {
+	width: 230px;
+}
+
+#strike-wrapper.embed input#zip {
+	width: 130px;
+}
+
+#strike-wrapper.embed input#addr1 {
+	width: 330px;
+}
+
+#strike-wrapper input#firstname {
+	
+}
+
+#strike-wrapper button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+	background-color:#77d42a;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:7px 5px 7px 5px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #333;
+	display: block;
+	clear: both;
+	margin: 0 auto 10px auto;
+	width: 360px;
+	cursor: pointer;
+}
+#strike-wrapper button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+	background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+	background-color:#5cb811;
+}
+
+#strike-wrapper button:active {
+	position:relative;
+	top:1px;
+}
+
+#strike-wrapper.embed button {
+	width: 490px;
+}
+
+#share-this > ul > li {
+	margin: 0 auto 0 auto;
+	height: 50px;
+	float: left;
+}
+
+#share-this > ul {
+	margin-left: 300px;
+}
+
+#share-this > ul > li.facebook > a {
+	height: 31px;
+	width: 109px;
+	display: block;
+	background: url(http://freebieber.org/img/buttons/norm_fb.png);
+}
+
+#strike-topper {
+	background: #000;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	font-size: 12px;
+	display: none;
+}
+
+#original-site {
+	font-weight: bold;
+}
+
+#shareitup {
+	position: absolute;
+}
+
+#shareitup div {
+	margin: 5px 0 15px 15px;
+}

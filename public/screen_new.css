@@ -1,0 +1,137 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+  position: relative;
+}
+
+.wrap p {font-size: 20px; color: #fff; line-height: 1.5; padding-left: 20px; text-align:left; padding-right: 20px; margin-bottom: 10px;}
+
+.map h1, #strike-wrapper h1 {font-size: 40px; height:auto; margin-top: 20px; margin-bottom: 20px; color: #ddd;}
+h1 em {font-style: italic; font-weight: bold;}
+
+#strike-wrapper h2 {margin-bottom: 20px; color: #ddd; text-align: left;}
+#strike-wrapper h2 a{color: #ddd !important; }
+#strike-wrapper h2 a:hover {color: #fff !important;}
+
+.section {
+	-moz-box-shadow: 0 0 15px #000000;
+	    background: none repeat scroll 0 0 #262626;
+	    margin: auto;margin-bottom: 75px; margin-top: 35px;
+	    overflow: auto;
+	    padding: 20px 5px;
+	    width: 900px;
+}
+/*
+.section {
+padding: 20px 5px;
+margin-bottom: 30px;
+overflow: auto;
+background: url(section_background.png);
+}
+*/
+/*
+.embedz {background: none;}
+*/
+.wrap {margin: 0 auto; width: 800px; text-align: center; padding-bottom: 35px;}
+.wrap p {#bbb;}
+/*
+#fight_header {border-bottom: 1px #000;}
+*/
+button {
+-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+box-shadow:inset 0px 1px 0px 0px #caefab;
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+background-color:#77d42a;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+border-radius:6px;
+border:1px solid #268a16;
+display:inline-block;
+color:#ffffff;
+font-family:arial;
+font-size:24px;
+font-weight:bold;
+padding:7px 5px 7px 5px;
+text-decoration:none;
+text-shadow:1px 1px 0px #333;
+display: block;
+clear: both;
+margin: 3px auto 10px auto;
+width: 360px;
+cursor: pointer;
+}
+button:hover {
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+background-color:#5cb811;
+}
+
+button:active {
+position:relative;
+top:1px;
+}
+
+
+input {
+width: 190px;
+padding: 5px;
+border: 1px solid #000;
+font-size: 24px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+height: 40px;
+box-shadow: #000 2px 2px;
+float: left;
+margin: 0 10px 10px 0;
+}
+
+textarea {
+background: white; border: 1px solid #666;
+padding: 5px;
+border: 1px solid #000;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+width: 780px;
+height: 100px;
+box-shadow: #000 2px 2px;
+float: left;
+margin: 0 10px 10px 0;"
+}
+
+select {
+	-moz-border-radius: 5px 5px 5px 5px;
+	    background: none repeat scroll 0 0 white;
+	    border: 1px solid #000000;
+	    float: left;
+	    margin: 1px 20px 10px 0;
+	    padding: 15px 5px;
+}
+
+.copywrong {margin: 0 auto; text-align: center; line-height: 1.5; margin-top: 75px; margin-bottom: 75px;}
+#sign .copywrong {font-size: 12px; width: 800px; padding-top: 10px; clear: both;}
+
+.embedz label {float: left; width: 200px; font-size: 20px; padding-top: 15px; text-align: right;}
+.embedz input {float: right;  width: 570px; }
+.embedz fieldset {margin-top: 20px;}
