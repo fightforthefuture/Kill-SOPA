@@ -132,6 +132,6 @@ select {
 .copywrong {margin: 0 auto; text-align: center; line-height: 1.5; margin-top: 75px; margin-bottom: 75px;}
 #sign .copywrong {font-size: 12px; width: 800px; padding-top: 10px; clear: both;}
 
-.embedz label {float: left; width: 200px; font-size: 20px; padding-top: 15px; text-align: right;}
-.embedz input {float: right;  width: 570px; }
-.embedz fieldset {margin-top: 20px;}
+fieldset label {float: left; width: 200px; font-size: 20px; padding-top: 15px; text-align: right;}
+fieldset input {float: right;  width: 570px; }
+fieldset {margin-top: 20px;}
