@@ -112,18 +112,6 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
-$(document).ready(function() {
-    $('input[placeholder],textarea[placeholder]').placeholder();
-    if(document.referrer != "")
-    {
-    	$('#strike-topper').html("<p>The page <strong>"+document.referrer+"</strong> is on strike today to fight SOPA and PIPA.</p>");
-    	$('#strike-topper').delay(500).slideDown();
-    }
-});
-
-
-
-
 
 // Setup tracking for form submisison on #censor
     var trackingFn = function() {
