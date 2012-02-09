@@ -141,5 +141,5 @@ fieldset {margin-top: 20px;}
 
 #acta .facts {float: left; text-align: left; width: 480px;}
 #acta .twitterz {float: right; width: 280px;}
-.facts h2 {font-size: 20px; font-weight: bold; padding-left: 10px; margin-bottom: 10px;}
+#acta h2 {font-size: 30px; font-weight: bold; padding-left: 10px; margin-bottom: 10px; text-align: center;}
 .facts ol li {list-style-type: decimal; padding-left: 10px; margin-bottom: 10px; line-height: 1.5;}
