@@ -47,7 +47,7 @@ displayAmericanCensorshipModal = function() {
                + '<a id="signupmodal-close" href="javascript:void(0)" onclick="javascript:document.getElementById(\'signupmodal-overlay\').style.display=\'none\';document.getElementById(\'signupmodal-lightbox\').style.display=\'none\';">'
                + '<img src="http://americancensorship.org/modal/images/close.png" title="Close"/>'
                + '</a>'
-               + '<iframe src="http://killacta/embed.html"></iframe>'
+               + '<iframe src="http://killacta.org/embed.html"></iframe>'
                + '</div>';
 
       var injector = document.createElement('div');
