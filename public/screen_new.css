@@ -135,3 +135,11 @@ select {
 fieldset label {float: left; width: 200px; font-size: 20px; padding-top: 15px; text-align: right;}
 fieldset input {float: right;  width: 570px; }
 fieldset {margin-top: 20px;}
+
+#map h1 {font-size: 30px; font-weight: bold;}
+#map p.copywrong {font-size: 13px; margin-top: 20px;}
+
+#acta .facts {float: left; text-align: left; width: 480px;}
+#acta .twitterz {float: right; width: 280px;}
+.facts h2 {font-size: 20px; font-weight: bold; padding-left: 10px; margin-bottom: 10px;}
+.facts ol li {list-style-type: decimal; padding-left: 10px; margin-bottom: 10px; line-height: 1.5;}
