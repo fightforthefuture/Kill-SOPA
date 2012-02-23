@@ -144,3 +144,142 @@ fieldset {margin-top: 20px;}
 #acta .twitterz {float: right; width: 280px;}
 #acta h2 {font-size: 30px; font-weight: bold; padding-left: 10px; margin-bottom: 10px; text-align: center;}
 .facts ol li {list-style-type: decimal; padding-left: 10px; margin-bottom: 10px; line-height: 1.5;}
+
+/* top level  */
+ul.smt-menu {
+	position:relative;
+	width:200px; /* MUST BE SET TO FIXED WITH */
+	margin:0 0 0 0 !important;
+	padding:0 0 0 0 !important;
+	list-style:none !important;
+	z-index:99999;
+	visibility:visible; 
+}
+
+/* no focus dotted line  */
+ul.smt-menu :focus {
+	outline: 0 !important;
+}
+
+
+/* container of menu items */
+ul.smt-menu ul {
+	position:absolute !important;
+	display:none;
+	list-style:none !important;
+	text-indent:none !important;
+	width:100%;
+	padding:0 0 0 0 !important;
+	margin:0 0 0 0 !important;	
+	border:1px solid #999;
+}
+
+/* list items (includes trigger) */
+ul.smt-menu li {
+	margin:0;
+	padding:0 !important;	
+	display:block !important;
+	float:left !important;
+	width:100% !important;
+}
+
+/* item wrapper */
+ul.smt-menu li.smt-item { 
+	float:none !important;
+	display:block !important;
+}
+
+/* down arrow at end of trigger link */
+ul.smt-menu li .smt-trigger-link .smt-downArrow
+{
+	display:inline-block;
+	height:13px;
+	width:13px;
+	background:url(bullet_arrow_down.png) no-repeat;
+}
+
+/* hover state for button which opens menu */
+ul.smt-menu li:hover .smt-trigger-link,
+ul.smt-menu li.sfhover .smt-trigger-link 
+{
+	
+}
+
+/* triggers has-layout for ie6 */
+* html .smt-trigger-link, .smt-link 
+{
+	display:inline-block;
+}
+
+
+/* styles trigger link */
+ul.smt-menu a.smt-trigger-link
+{
+	display:block !important;
+	padding:0px !important;
+	text-decoration:none !important;
+	font-family:arial !important;
+	font-size:12px !important;
+	color:#000 !important;
+	background-color:#fff;
+	cursor:pointer;		
+	border:0px solid black;
+}
+
+/* styles item link tags */
+a.smt-link 
+{
+	display:block !important;
+	padding:3px 7px !important;
+	text-decoration:none !important;
+	font-family:arial !important;
+	font-size:12px !important;
+	line-height:12px !important;
+	color:#000 !important;
+	background-color:#fff;
+	cursor:pointer;		
+	border:0px solid black;
+}
+
+/* menu items */
+ul.smt-menu li li a 
+{
+	background-color:#fff;
+}
+
+/* hover state for menu items */
+ul.smt-menu li li a:hover 
+{
+	background-color:#999 !important;
+	color:#fff !important;
+}
+
+/* the world "language" in trigger  */
+ul.smt-menu span.smt-word 
+{
+	font-weight:normal !important;
+	padding-right:5px !important;
+}
+
+/* the name of language in trigger  */
+ul.smt-menu span.smt-lang 
+{
+	font-weight:bold !important;
+	color:#000 !important;
+}
+
+/* hover state for name of language in trigger */
+ul.smt-menu li:hover span.smt-word,
+ul.smt-menu li.sfhover span.smt-word
+{
+}
+
+/* hover state for the world "language" in trigger */
+ul.smt-menu li:hover span.smt-lang,
+ul.smt-menu li.sfhover span.smt-lang 
+{
+	color:#000 !important;
+}
+
+/*Hide the selector while we are waiting on translations*/	
+body #smt-lang-selector  {display: none;!important}
